@@ -6,7 +6,8 @@ let eatenPieces = 0
 
 function initGame(id){
     player = GAME.players[id].type
-
+    const welcomeMessage = document.getElementsByTagName('h1');
+    if(welcomeMessage && welcomeMessage[0]) welcomeMessage.delete()
     const app = document.getElementById('app')
     const header = document.createElement('h3')
     header.innerText = `You are playing ${player === 1 ? 'white' : 'black'} (${player})`
