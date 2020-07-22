@@ -169,4 +169,3 @@ function endGame() {
         alert('Winner is: player '+msg.winner)
     })
 })()
-
