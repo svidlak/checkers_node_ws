@@ -20,3 +20,4 @@ class HomeController implements IControllerBase {
 }
 
 export default HomeController
+
