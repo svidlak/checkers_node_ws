@@ -1,5 +1,3 @@
-import EPlayer from "./EPlayer.enum";
-
 interface IBoard {
     type: number
     active: boolean
