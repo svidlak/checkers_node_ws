@@ -1,6 +1,5 @@
 import App from './app'
 import * as dotenv from "dotenv"
-import * as cors from 'cors'
 dotenv.config();
 
 if (!process.env.PORT) {
@@ -16,9 +15,6 @@ const app = new App({
         new HomeController(),
     ],
     middleWares: [
-        // bodyParser.json(),
-        // bodyParser.urlencoded({ extended: true }),
-        // cors(),
         loggerMiddleware
     ]
 })

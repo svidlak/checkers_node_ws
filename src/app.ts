@@ -39,7 +39,6 @@ class App {
 
     private assets() {
         this.app.use(express.static('public'))
-        // this.app.use(express.static('views'))
     }
 
     public listen() {
