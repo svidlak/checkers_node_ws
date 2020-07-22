@@ -21,7 +21,6 @@ class Websocket {
         if(this.gameQueue.length == 2){
             this.startGame()
         }
-        //this.Io.to(socket.id).emit('hi', socket.id)
         socket.on('updateBoard', this.updateBoard)
         socket.on('endGame', this.endGame)
         socket.on('disconnect', this.disconnect)
