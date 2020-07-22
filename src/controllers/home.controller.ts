@@ -14,7 +14,7 @@ class HomeController implements IControllerBase {
         this.router.get('/', this.index)
     }
 
-    index = (req: Request, res: Response) => {
+    private index = (req: Request, res: Response) => {
         res.sendFile(path.resolve(__dirname + '/../../public/index.html'))
     }
 }

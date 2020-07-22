@@ -1,7 +1,6 @@
 import IBoard from "../interfaces/IBoard.interface";
 
 class Game {
-
     private board: IBoard[][]
 
     constructor() {
