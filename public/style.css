@@ -1,0 +1,24 @@
+table {
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+    border: 2px solid black;
+    text-align: center;
+}
+
+td {
+    width: 60px;
+    height: 60px;
+}
+
+.active {
+    background: forestgreen !important;
+}
+
+.move {
+    background: yellow !important;
+}
+
+h3, h4 {
+    text-align: center;
+}
